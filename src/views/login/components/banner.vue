@@ -8,15 +8,7 @@
             <div class="carousel-sub-title" style="margin-bottom: 20px">{{
               item.subSlogan
             }}</div>
-            <!--<img :src="item.image" class="carousel-image" />-->
-            <iframe
-              src="https://discord.com/widget?id=1185035164577972344&theme=dark"
-              width="350"
-              height="350"
-              allowtransparency="true"
-              frameborder="0"
-              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-            ></iframe>
+            <img :src="item.image" class="carousel-image" />
           </div>
         </a-carousel-item>
       </a-carousel>
@@ -73,7 +65,7 @@
     }
 
     &-title {
-      color: var(--color-fill-1);
+      color: var(--color-text-3);
       font-weight: 500;
       font-size: 20px;
       line-height: 28px;
