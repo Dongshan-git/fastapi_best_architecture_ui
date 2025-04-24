@@ -3,14 +3,8 @@
 Front-end Implementation of
 the [FastAPI Best Architecture](https://github.com/fastapi-practices/fastapi_best_architecture)
 
-Some basic functionality has been implemented, development has been slow. Fortunately, we now have a demo
-site: [FBA UI](https://fba.xwboy.top/)
-
 > [!CAUTION]
-> Please keep in mind that at the moment it is only intended as a demo of the effect and not for production!
-
-> [!NOTE]
-> Use casbin authorization internally instead of role menu authorization
+> This is not recommended for production!
 
 ## Run
 
@@ -42,9 +36,10 @@ yarn build
   </tr>
   <tr>
     <td><img src="./docs/images/menu_manage.jpg" alt="menu manage"></td>
-    <td><img src="./docs/images/redis_monitor.jpg" alt="redis monitor"></td>
+    <td><img src="./docs/images/code_generator.jpg" alt="code generator"></td>
   </tr>
   <tr>
+    <td><img src="./docs/images/redis_monitor.jpg" alt="server monitor"></td>
     <td><img src="./docs/images/server_monitor.jpg" alt="server monitor"></td>
   </tr>
 </table>
@@ -58,7 +53,7 @@ yarn build
 ## Special thanks
 
 - [Vue.js](https://cn.vuejs.org/guide/introduction.html)
-- [Arco-design-vue](https://github.com/arco-design)
+- [Arco Desgin](https://github.com/arco-design)
 - ...
 
 ## Sponsor us
